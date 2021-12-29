@@ -5,7 +5,7 @@
 		height: 100vh;
 	}
 	.update-container {
-		width: 95%;
+		width: 85%;
 	}
         .head {
                 display: flex;
@@ -17,9 +17,9 @@
                 font-size: 1.2rem;
 	}
 	.faculty-container {
-		width: 95%;
+		width: 85%;
 	}
-	.form {
+	.form-control {
                 width: 95%;
         .foot {
                 font-size:1.2rem;
