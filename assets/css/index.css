@@ -1,0 +1,160 @@
+a:hover, a:visited, a:active {
+	text-decoration: none;
+}
+
+.header-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+}
+
+.logo {
+	height: 10rem;
+	border-radius: 50%;
+}
+
+.head {
+	font-size: 1.7rem;
+}
+
+.tags {
+	width: 0ch;
+	color: green;
+	font-family: consolas;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 1.7rem;
+	text-orientation: upright;
+	animation: text 15s steps(35)  infinite, caret .7s infinite;
+}
+
+@keyframes text{
+	0%{
+		width: 0ch;
+
+	}
+	50%{
+		width: 35ch;
+	}
+	100%{
+		width: 0ch;
+	}
+}
+@keyframes caret {
+	0%{
+		border-right: 3px solid orange;
+	}
+	50% {
+		border: none;
+	}
+	100%{
+		border-right: 3px solid orange;
+	}
+}
+
+.main-container{
+	width: 100%;
+	display: flex;
+}
+
+.alert {
+	font-size: 1.8rem;
+}
+
+.update-container {
+	width: 50%;
+	height: 300px;
+	margin: 20px;
+	border: 2px solid grey;
+}
+
+.faculty-container {
+	width: 50%;
+	margin: 20px;
+	border: 2px solid grey;
+}
+
+.faculty-list {
+	line-height: 35px;
+}
+
+.contact {
+	width: 100%;
+	background-color: #F0FFF0;
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+}
+
+.contact  .form-container {
+	display: flex;
+	justify-content: center;
+}
+
+.page-header {
+	color: #0099CC;
+	text-align: center;
+	font-family: Century Gothic;
+	font-weight: 400;
+	font-size: 2rem;
+}
+
+.form-container form {
+	width: 60%;
+}
+
+.form-container fieldset {
+	display: flex;
+	flex-direction: column;
+	color: black;
+	width: 100%;
+
+}
+
+.form-container fieldset label {
+	margin-bottom: 4px;
+	margin-top: 15px;
+	font-size: 1.3rem;
+	font-family: tahoma;
+	color: green;
+}
+
+.form-container fieldset input, .form-container fieldset textarea{
+	width: 100%;
+	padding: 7px;
+	resize: none;
+	color: white;
+}
+
+.send-btn {
+	width: fit-content;
+	padding: 5px 10px;
+	font-weight: bold;
+	margin-top: 15px;
+	color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    font-family: consolas;
+	border-radius: 4px;
+}
+
+.send-btn:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	background: #283655;
+}
+
+.foot {
+	padding: 10px;
+	color: black;
+	font-family: 1.5rem;
+}
