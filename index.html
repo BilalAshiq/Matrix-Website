@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Matrix</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+	<link rel="icon" type="image/x-icon" href="assets/imgs/favicon.jpeg"><link rel="stylesheet" type="text/css" href="stuff/fontawesome/css/all.min.css">
+
+	<style type="text/css">
+		body {
+
+		}
+		.header-container {
+			background-image: url("assets/imgs/img7.jpg");
+			background-size: cover;
+			
+			
+}
+	</style>
+
+</head>
+<body>
+
+	<!-- NavBar -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	    <div class="container-fluid">
+		    <a class="navbar-brand" href="#">
+		    </a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbar">
+		        <ul class="navbar-nav ml-auto">
+			       <li class="nav-item">
+			            <a class="nav-link active" aria-current="page" href="index.html">
+			            	<i class="fas fa-home"></i>	Home
+			        	</a>
+			        </li>
+			        <li class="nav-item">
+			            <a class="nav-link" href="#">
+			            	<i class="fas fa-address-card"></i> Form-Submission
+			        	</a>
+			        </li>
+			        <li class="nav-item">
+			            <a class="nav-link" href="#">
+			            	<i class="fas fa-code"></i>
+			            	Admin 
+			        	</a>
+			        </li>
+			         <li class="nav-item">
+			            <a class="nav-link" href="#">
+			            	<i class="fas fa-address-book"></i> Contact
+			        	</a>
+			        </li>
+		        </ul>
+		    </div>
+	    </div>
+	</nav>
+	<!-- Header -->
+		<div class="header-container">
+			<img class="logo" src="assets/imgs/favicon.jpeg"><br>
+			<h2 class="head">Matrix Institute Of Science And Technology</h2>
+			<h3 class="tags">A Place Where Future Is Flourished</h3>
+		</div>
+	<!-- Updates -->
+	<main class="main-container">
+		<div class="update-container">
+			<h2 class="alert alert-success"><i class="fas fa-edit"></i> Latest News And Updates</h2>
+			<marquee class="text"
+			 	 	 direction="up"
+			 	 	 scrollamount="6"
+			 	 	 width="100%;"
+			 	 	 height="60%;">
+				<ul>
+					<li>Admission Open From Class 9<sup>th</sup> And 10<sup>th</sup> <button class="btn btn-success">Visit</button></li>
+					<li>Study Material Available For All Classes</li>
+					
+				</ul>
+			</marquee>
+		</div>
+	<!-- Faculty -->
+		<div class="faculty-container">
+			<h2 class="alert alert-info container text-center"><i class="fas fa-chalkboard-teacher"></i> Faculty</h2>
+				<ul class="faculty-list">
+					<li>Streams Offered : Medical And Non Medical</li>
+					<li>Detailed Study Of Class 11<sup>th</sup> And Class 12<sup>th</sup></li>
+					<li>Online Video Lecture Backup Besides Offline Classes</li>
+					<li>Regular Test And Practice</li>
+				</ul>
+		</div>
+	</main>
+	<!-- Contact -->
+	<section class="contact">
+		<a name="contact"></a>
+		<div class="container">
+			<header class="page-header">
+				<i class="fas fa-address-book"></i> Contact
+			</header>
+			<div class="form-container">
+				<form id="contactForm">
+					<fieldset>
+						<label for="name"><i class="fas fa-address-card"></i> Name</label>
+						<input required minlength="3" maxlength="50" type="text" class="form-control" id="name">
+					</fieldset>
+					<fieldset>
+						<label for="name"><i class="fas fa-envelope"></i> Email</label>
+						<input required minlength="8" maxlength="100" type="email" id="email" class="form-control">
+					</fieldset>
+					<fieldset>
+						<label for="name"><i class="fas fa-comment-dots"></i> Message</label>
+						<textarea required minlength="4" maxlength="256" rows="5" id="message" class="form-control"></textarea>
+					</fieldset>
+					<fieldset>
+						<button id="sendBtn" class="send-btn"><i class="fas fa-paper-plane"></i> Send</button>
+						<div class="status mt-3" id="status"></div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</section>
+	<!-- Footer -->
+		<footer class="footer">
+			<h3 class="foot">Designed | Developed | <a href="bilalashiq.github.io">Bilal War</a></h3>
+		</footer>
+
+
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="https://kit.fontawesome.com/de41999cf3.js"></script>
+
+</body>
+</html>
