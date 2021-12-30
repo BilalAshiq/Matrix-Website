@@ -17,6 +17,9 @@
 		color: orange;
                 font-size: 1.2rem;
 	}
+        .main-container, .update-container, .alert {
+                font-size: 25px;
+        }
 	.faculty-container {
 		width: 80%;
 	}
