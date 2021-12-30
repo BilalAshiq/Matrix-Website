@@ -11,9 +11,10 @@
                 display: flex;
                 justify-content: center;
                 font-size: 1.2rem;
+                color: white;
         }
 	.tags {
-		color: white;
+		color: orange;
                 font-size: 1.2rem;
 	}
 	.faculty-container {
