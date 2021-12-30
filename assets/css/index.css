@@ -68,13 +68,13 @@ a:hover, a:visited, a:active {
 .update-container {
 	width: 50%;
 	height: 300px;
-	margin-top: 20px;
+	margin: 20px 0 0 10px;
 	border: 2px solid grey;
 }
 
 .faculty-container {
 	width: 50%;
-	margin-top: 20px;
+	margin: 20px 0 0 10px;
 	border: 2px solid grey;
 }
 
