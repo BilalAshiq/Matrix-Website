@@ -18,7 +18,7 @@
                 font-size: 1.2rem;
 	}
         .main-container, .update-container, .alert {
-                font-size: 0.5rem;
+                font-size: 18px;
         }
 	.faculty-container {
 		width: 80%;
