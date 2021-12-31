@@ -100,6 +100,7 @@ a:hover, a:visited, a:active {
 	font-size: 25px;
 	color: grey;
 	text-align: center;
+        margin: 20px;
 }
 
 label {
