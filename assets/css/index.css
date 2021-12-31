@@ -30,7 +30,7 @@ a:hover, a:visited, a:active {
 	white-space: nowrap;
 	font-size: 1.7rem;
 	text-orientation: upright;
-	animation: text 15s steps(31)  infinite, caret .7s infinite;
+	animation: text 15s steps(35)  infinite, caret .7s infinite;
 }
 
 @keyframes text{
@@ -39,7 +39,7 @@ a:hover, a:visited, a:active {
 
 	}
 	50%{
-		width: 31ch;
+		width: 35ch;
 	}
 	100%{
 		width: 0ch;
