@@ -33,5 +33,8 @@
 		width: 80%;
 		text-align: center;
 		font-size: 25px;
-	}	
+	}
+	.foot {
+		font-size: 20px;
+	}
 }
