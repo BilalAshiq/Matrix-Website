@@ -25,7 +25,12 @@
 	.contact-container {
 		width: 80%;
 	}
+	.header {
+		display: flex;
+		justify-content: center;
+	}
 	.head {
 		width: 80%;
+		text-align: center;
 	}	
 }
