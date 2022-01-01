@@ -13,8 +13,9 @@ body {
 .alert2 {
 	margin-top: 10px;
 	border-radius: 10px;
+        font-size: 1.3rem;
 	padding: 20px;
-	 border-color: #bee5eb;
+        border-color: #bee5eb;
 }
 
 .form {
@@ -27,7 +28,6 @@ body {
 
 fieldset {
 	width: 100%;
-	margin: 15px;
 }
 
 label {
