@@ -34,7 +34,7 @@
 			        	</a>
 			        </li>
 			        <li class="nav-item">
-			            <a class="nav-link" href="#">
+			            <a class="nav-link" href="#" id="admin-btn	>
 			            	<i class="fas fa-code"></i>
 			            	Admin 
 			        	</a>
@@ -51,7 +51,7 @@
 	<!-- Form -->
 	<main class="main-container">
 			<header class="header">
-				<h2 class="head"><i class="fas fa-address-card"></i> Student - Form Submission</h2>
+				<h2 class="head">Student - Form Submission</h2>
 			</header>
 		<section class="form-container">
 			<div class="col-12 col-lg-6 col-md-6 col-sm-12">
@@ -104,11 +104,50 @@
 		<footer class="footer bg-dark">
 			<h3 class="foot">Designed And Developed By Bilal War</h3>
 		</footer>
+	<!-- Admin Modal -->
+	<div class="modal fade" id="admin-login-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Admin Login</h5>
+	      </div>
+	      <div class="modal-body">
+	       	<fieldset>
+	       		<label style="color: black;">Email</label>
+	       		<input type="email" id="email" class="form-control">
+	       	</fieldset>
+	       	<fieldset>
+	       		<label style="color: black;">Password</label>
+	       		<input type="password" id="password" class="form-control">
+	       	</fieldset>
+
+	      </div>
+	      <div class="modal-footer d-flex justify-content-between">
+	        <div class="d-flex">
+	        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+	        	<button type="button" class="ml-3 btn btn-primary" id="user-login">Login</button>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>	
 
 	</main>
-
+	
+	<script src="assets/js/jquery.min.js"></script>										  
 	<script src="assets/js/bootstrap.bundle.min.js"></script>
 	<script src="https://kit.fontawesome.com/de41999cf3.js"></script>
+	<script>
+
+		$(document).ready(()=>{
+		
+		$("#admin-btn").click(()=>{
+				$("#admin-login-modal").modal('show');
+			});
+		});
+
+	</script>							       
+							       
 
 </body>
 </html>
