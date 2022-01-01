@@ -152,6 +152,50 @@
         <script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/bootstrap.bundle.min.js"></script>
 	<script src="https://kit.fontawesome.com/de41999cf3.js"></script>
+        <script>
+
+		$(document).ready(()=>{
+		
+		$("#admin-btn").click(()=>{
+				$("#admin-login-modal").modal('show');
+			});
+						      
+			// user login 
+			$("#user-login").click(()=>{
+				let email = $("#email").val();
+				let pw = $("#password").val();
+
+				let rawData = { email:email, password:pw };
+				let data = JSON.stringify(rawData);
+
+				$.ajax({
+					url: "https://alphacoders.ga/projects/attendance-manager-api/userLogin.php",
+					method: "POST",
+					data: data,
+					dataType: "json",
+					success: function (res) {
+						console.log(res);
+						if (res.status == true) {
+							window.location = "submitAttendance.html";
+							sessionStorage.setItem('loginStatus', 'true');
+							sessionStorage.setItem("userInfo", JSON.stringify(res.userInfo));
+						}
+						else {
+							alert(res.msg);
+							window.location = "submitAttendance.html";
+							sessionStorage.setItem('loginStatus', 'false');
+						}
+					},
+					error: function() {
+						console.log("login req failed");
+					}
+
+				})
+
+			});				      
+		});
+
+	</script>			
 
 </body>
 </html>
