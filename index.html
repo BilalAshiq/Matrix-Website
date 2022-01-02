@@ -176,13 +176,13 @@
 					success: function (res) {
 						console.log(res);
 						if (res.status == true) {
-							window.location = "submitAttendance.html";
+							window.location = "adminPanel.html";
 							sessionStorage.setItem('loginStatus', 'true');
 							sessionStorage.setItem("userInfo", JSON.stringify(res.userInfo));
 						}
 						else {
 							alert(res.msg);
-							window.location = "submitAttendance.html";
+							window.location = "index.html";
 							sessionStorage.setItem('loginStatus', 'false');
 						}
 					},
