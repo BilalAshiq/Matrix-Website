@@ -87,7 +87,7 @@ ul li {
 	line-height: 35px;
 }
 
-.contact {
+#contact {
 	width: 100%;
 	display: flex;
 	justify-content: center;
