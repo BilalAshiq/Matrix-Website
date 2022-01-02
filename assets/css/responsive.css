@@ -1,4 +1,5 @@
 @media only screen and (max-width: 768px){
+	/* index.html */
 	.main-container {
 		display: flex;
 		flex-direction: column;
@@ -25,6 +26,7 @@
 	.contact-container {
 		width: 80%;
 	}
+	/* form-submission.html */
 	.header {
 		display: flex;
 		justify-content: center;
@@ -36,5 +38,9 @@
 	}
 	.foot {
 		font-size: 15px;
+	}
+	/* admin-panel.html */
+	.form {
+		width: 90%;
 	}
 }
